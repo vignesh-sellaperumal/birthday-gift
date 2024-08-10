@@ -12,7 +12,13 @@ function Home() {
   let currentComponent = null;
 
   if (showWish) {
-    currentComponent = <div className={styles.WishesContainer}>wishes</div>;
+    currentComponent = (
+      <div className={styles.WishesContainer}>
+        <p>
+          Wish you a very many special Happy Birthday Sumi!
+        </p>
+      </div>
+    );
   } else {
     currentComponent = (
       <>

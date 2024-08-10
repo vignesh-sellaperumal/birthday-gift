@@ -20,6 +20,7 @@ function Home() {
         <h1 className={styles.AgeText}>23</h1>
         <TypeAnimation
           sequence={[
+            3000,
             `Wish you a very many special Happy Birthday Sumi!`,
             3000,
             `Thanks for being there for me whenever I felt down, I will always there for you whenever you need me (inaikku, nalaikku, nalai maru naal epoludhum). Epovum pola happy ya iru seri ya.`,

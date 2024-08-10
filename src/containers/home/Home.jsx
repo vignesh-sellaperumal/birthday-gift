@@ -14,9 +14,7 @@ function Home() {
   if (showWish) {
     currentComponent = (
       <div className={styles.WishesContainer}>
-        <p>
-          Wish you a very many special Happy Birthday Sumi!
-        </p>
+        <p>Wish you a very many special Happy Birthday Sumi!</p>
       </div>
     );
   } else {
@@ -24,6 +22,18 @@ function Home() {
       <>
         <h1 className={styles.TitleText}>H A P P Y</h1>
         <h1 className={styles.BirthdayText}>B I R T H D A Y</h1>
+        {showConfetti && (
+          <ConfettiExplosion
+            particleCount={1000}
+            particleSize={10}
+            duration={5000}
+            onComplete={() => {
+              setShowConfetti(false);
+              setShowWish(true);
+            }}
+            className={styles.BirthdayText}
+          />
+        )}
         <h1 className={styles.NameText}>S U M I T H R A</h1>
         <div
           className={styles.IconContainer}
@@ -40,17 +50,6 @@ function Home() {
       <div className={styles.ImageContainer}>
         <img src={background} className={styles.Background} alt="page-poster" />
         {currentComponent}
-        {showConfetti && (
-          <ConfettiExplosion
-            particleCount={1000}
-            particleSize={10}
-            duration={5000}
-            onComplete={() => {
-              setShowConfetti(false);
-              setShowWish(true);
-            }}
-          />
-        )}
       </div>
     </div>
   );

@@ -24,7 +24,7 @@ function Home() {
             3000,
             `Thanks for being there for me whenever I felt down, I will always there for you whenever you need me (inaikku, nalaikku, nalai maru naal epoludhum). Epovum pola happy ya iru seri ya.`,
             5000,
-            `Nalla padichu next Birthday kula developer aagitu Amma, Appa, Thangachi ya Happy ya vachiko. Ipo irukura maadhri epovum nee jolly ya iru edhu paththiyum yosikadha, ellamae nalladhae nadakkum :)`,
+            `Nalla padichu nee aasa patta maari developer aagitu Amma, Appa, Thangachi ya Happy ya vachiko. Ipo irukura maadhri epovum nee jolly ya iru edhu paththiyum yosikadha, ellamae nalladhae nadakkum :)`,
             5000,
             `Keep smiling as always ;)`,
           ]}

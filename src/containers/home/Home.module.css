@@ -1,0 +1,58 @@
+.Background {
+  background-size: cover;
+  height: 100vh;
+  max-width: 100vw;
+  margin: 0px;
+}
+.Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ImageContainer {
+  position: relative;
+  height: 100vh;
+  width: fit-content;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.TitleText {
+  position: absolute;
+  top: 30%;
+  color: rgb(243, 71, 24);
+  font-family: "Bebas Neue";
+  font-weight: 700;
+  font-size: 54px;
+}
+.BirthdayText {
+  position: absolute;
+  top: 43%;
+  font-family: "Dancing Sript", cursive;
+  color: blueviolet;
+  font-weight: 700;
+  font-size: 40px;
+}
+.NameText {
+  position: absolute;
+  color: rgb(0, 90, 139);
+  top: 50%;
+  font-family: "Grey Qo", cursive;
+  font-weight: bolder;
+  font-size: 54px;
+}
+.IconContainer {
+  position: absolute;
+  background-color: rgb(96, 210, 120);
+  border-radius: 50%;
+  padding: 14px;
+  top: 75%;
+}
+.PopperIcon {
+  font-size: 44px;
+  color: white;
+}
+.WishesContainer {
+  position: absolute;
+}

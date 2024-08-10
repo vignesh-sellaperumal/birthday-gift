@@ -5,7 +5,7 @@ import styles from "./Home.module.css";
 import ConfettiExplosion from "react-confetti-explosion";
 import { GiPartyPopper } from "react-icons/gi";
 import { TypeAnimation } from "react-type-animation";
-import { IoMdRefreshCircle } from "react-icons/io";
+import { MdOutlineRefresh } from "react-icons/md";
 
 function Home() {
   const [showConfetti, setShowConfetti] = useState(false);
@@ -79,7 +79,7 @@ function Home() {
           <GiPartyPopper className={styles.PopperIcon} />
         </div>
 
-        <IoMdRefreshCircle className={styles.RefreshIcon} onClick={() => window.location.reload()} />
+        <MdOutlineRefresh className={styles.RefreshIcon} onClick={() => window.location.reload()} />
 
         {currentComponent}
       </div>
